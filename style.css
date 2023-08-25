@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Inter-400";
+    src: url(assets/fonts/static/Inter-Regular.ttf );
+}
+@font-face {
+    font-family: "Inter-700";
+    src: url(assets/fonts/static/Inter-Bold.ttf );
+}
+@font-face {
+    font-family: "Inter-800";
+    src: url(assets/fonts/static/Inter-ExtraBold.ttf );
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    width: 80rem;
+    margin: auto;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+}
+.link-nav{
+    font-family: "Inter-400";
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+.link-nav:hover{
+    color:  hsl(5, 85%, 63%);
+}
+
+
+
+
+
+
+
+
+
+main {
+    width: 80rem;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+}
+#principal-notice{
+    width: 46rem;
+}
+#img-main {
+    width: 730px;
+}
+#article-main {
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+#h1-main {
+    font-family: "Inter-800";
+    font-size: 3rem;
+    width: 45%;
+}
+#coisas-main {
+    width: 50%;
+}
+#p-main {
+    font-family: "Inter-400";
+    width: auto;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+#btn-read-more {
+    font-family: "Inter-700";
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    padding: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin-top: 3rem;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+#btn-read-more:hover{
+    background-color:  hsl(240, 100%, 5%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

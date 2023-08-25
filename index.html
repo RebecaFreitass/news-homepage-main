@@ -2,59 +2,83 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | News homepage</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+<header>
+  <img src="assets/images/logo.svg" alt="logo-jornal" id="logo">
+    <nav>  
+      <a href="#" class="link-nav">Home</a>
+      <a href="#" class="link-nav"> News</a>
+      <a href="#" class="link-nav">Popular</a>
+      <a href="#" class="link-nav">Trending</a>
+      <a href="#" class="link-nav">Categories</a>
+    </nav>
+</header>
+<main>
+    <section id="principal-notice">
+      <picture>
+        <source media="(max-width:550px )" srcset="assets/images/image-web-3-mobile.jpg">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="" id="img-main">
+      </picture>
+      <article id="article-main">
+        <h1 id="h1-main">The Bright Future of Web 3.0?</h1>
+        <div id="coisas-main">
+          <p id="p-main">
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+            But is it really fulfilling its promise?
+          </p>
+          <button id="btn-read-more">Read more</button>
+        </div>
+      </article>
+    </section>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
+  <section id="section-news">
+    <h1 id="h1-news">New</h1>
+    <h2 class="h2-news"><a href="#">Hydrogen VS Electric Cars</a></h2>
+    <p class="p-news">Will hydrogen-fueled cars ever catch up to EVs?</p>
+    <div id="line"></div>
+    <h2 class="h2-news"><a href="#">The Downsides of AI Artistry</a></h2>
+    <p class="p-news">What are the possible adverse effects of on-demand AI image generation?</p>
+    <h2 class="h2-news"><a href="#">Is VC Funding Drying Up?</a></h2>
+    <p class="p-news">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+  </section>
+</main>
+  <aside>
+    <ul>
+      <li>
+        <img src="assets/images/image-retro-pcs.jpg" alt="" class="images-list-aside">
+        <article class="article-aside">
+          <h1 class="h1-aside-list">01</h1>
+          <h2 class="h2-aside-list"><a href="">Reviving Retro PCs</a></h2>
+          <p class="p-aside-list">What happens when old PCs are given modern upgrades?</p>
+        </article>
+      </li>
+      <li>
+        <img src="assets/images/image-top-laptops.jpg" alt="" class="images-list-aside">
+        <article class="article-aside">
+          <h1 class="h1-aside-list">02</h1>
+          <h2 class="h2-aside-list"><a href="">Top 10 Laptops of 2022</a></h2>
+          <p class="p-aside-list">Our best picks for various needs and budgets.</p>
+        </article>
+      </li>
+      <li>
+        <img src="assets/images/image-gaming-growth.jpg" alt="" class="images-list-aside">
+        <article class="article-aside">
+          <h1 class="h1-aside-list">03</h1>
+          <h2 class="h2-aside-list"><a href="">The Growth of Gaming</a></h2>
+          <p class="p-aside-list"> How the pandemic has sparked fresh opportunities.</p>
+        </article>
+      </li>
+    </ul>
+  </aside>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
