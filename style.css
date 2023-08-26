@@ -24,10 +24,16 @@ header {
     width: 73rem;
     margin: auto;
 }
-nav{
+.nav-desktop{
     display: flex;
     gap: 1rem;
     font-size: 0.9rem;
+}
+.menu{
+    display: none;
+}
+.nav-menu{
+    display: none;
 }
 .link-nav{
     font-family: "Inter-400";
@@ -84,6 +90,7 @@ main {
     color: white;
     cursor: pointer;
     transition: 1s;
+    box-shadow: -1px 0px 15px #00000047;
 }
 #btn-read-more:hover{
     background-color:  hsl(240, 100%, 5%);
@@ -170,10 +177,233 @@ li{
 }
 
 
+@media (max-width: 1200px){
+    header {
+        width: 95vw;
+    }
+    main {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    .p-news {
+        font-size: 1rem;
+    }
+    .h2-news a {
+        font-size: 1.2rem;
+    }
+    #section-news {
+        background-color: hsl(240, 100%, 5%);
+        padding: 1.5rem;
+        width: 18rem;
+        height: 31rem;
+    }
+    aside {
+        width: 90vw;
+        margin: 2rem auto;
+        justify-content: center;
+    }
+    .p-aside-list {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    ul {
+        gap: 1rem;
+    }
+}
 
+@media (max-width:1122px) {
+    #img-main {
+        width: 600px;
+    }
+    #h1-main {
+        font-size: 2rem;
+        width: 30%;
+    }
+    #principal-notice {
+        width: 37rem;
+    }
+    #p-main {
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+    #coisas-main {
+        width: 56%;
+    }
+    #btn-read-more {
+        padding: 0.7rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.2rem;
+        margin-top: 1rem;
+    }
+    #line {
+        margin: 1.5rem 0;
+    }
+    #section-news {
+        padding: 1.5rem;
+        width: 17rem;
+        height: 27rem;
+    }
+    .p-news {
+        font-size: 0.9rem;
+    }
+    .h2-news a {
+        font-size: 1.1rem;
+    }
+    #h1-news {
+        font-size: 1.6rem;
+        color: hsl(35, 77%, 62%);
+        font-family: "Inter-800";
+        margin-bottom: 1rem;
+    }
+}
 
+@media (max-width:948px){
+    main {
+        width: 35rem;
+        align-items: baseline;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    #article-main {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0;
+        justify-content: center;
+        align-items: baseline;
+    }
+    ul {
+        gap: 1rem;
+        align-items: baseline;
+        flex-direction: column;
+        justify-content: center;
+    }
+    aside {
+        width: 35rem;
+    }
+    #h1-main {
+        font-size: 3rem;
+        width: 50%;
+    }
+    header {
+        width: 35rem;
+    }
+    #coisas-main {
+        width: 83%;
+    }
+}
+@media (max-width:650px){
+    header {
+        width: 90vw;
+    }
+    aside {
+        width: 90vw;
+    }
+    main {
+        width: 90vw;
+    }
+    #principal-notice {
+        width: auto;
+    }
+    #img-main {
+        width: 90vw;
+    }
+}
+@media (max-width:590px){
+    #h1-main {
+        font-size: 2.5rem;
+        width: 48%;
+    }
+    #coisas-main {
+        width: 90%;
+    }
+    #article-main {
+        gap: 1rem;
+    }
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 10rem;
+        padding-top: 6rem;
+        font-size: 2rem;
+        align-items: center;
+        margin: auto;
+        line-height: 4.5rem;
+    }
+    .menu{
+        display: block;
+        position: relative;
+    }
+    .menu img{
+        cursor: pointer;
+    }
+    .nav-menu {
+        display: block;
+        position: absolute;
+        background-color: hsl(240, 100%, 5%);
+        height: 100vh;
+        width: 100vw;
+    }
+    
+}
+@media (max-width:539px){
+    #h1-main {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+    #section-news {
+        padding: 1.5rem;
+        width: 90%;
+        height: auto;
+    }
+    #logo{
+        width: 3rem;
+    }
+}
 
-
+@media(max-width:471px){
+    #h1-main {
+        font-size: 2rem;
+        width: 70%;
+    }
+    .h1-aside-list {
+        font-family: "Inter-700";
+        color: hsl(233, 8%, 79%);
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:376px){
+    main {
+        width: 100vw;
+        margin-top: 1rem;
+    }
+    header {
+        padding: 1rem 0rem;
+    }
+    #article-main {
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+    #img-main {
+        width: 100vw;
+    }
+    #section-news {
+        width: auto;
+        height: auto;
+    }
+    #h1-main {
+        font-size: 2rem;
+        width: 75%;
+    }
+}
 
 
 

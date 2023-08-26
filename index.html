@@ -11,18 +11,30 @@
 <body>
 <header>
   <img src="assets/images/logo.svg" alt="logo-jornal" id="logo">
-    <nav>  
+    <nav class="nav-desktop navmobile">   
       <a href="#" class="link-nav">Home</a>
       <a href="#" class="link-nav"> News</a>
       <a href="#" class="link-nav">Popular</a>
       <a href="#" class="link-nav">Trending</a>
       <a href="#" class="link-nav">Categories</a>
     </nav>
+    <div class="menu">
+        <img src="assets/images/icon-menu.svg" alt="">
+        <div class="nav-menu">
+          <nav class="navmobile">
+            <a href="#" class="link-nav">Home</a>
+            <a href="#" class="link-nav"> News</a>
+            <a href="#" class="link-nav">Popular</a>
+            <a href="#" class="link-nav">Trending</a>
+            <a href="#" class="link-nav">Categories</a>
+          </nav>
+        </div>
+    </div>
 </header>
 <main>
     <section id="principal-notice">
       <picture>
-        <source media="(max-width:550px )" srcset="assets/images/image-web-3-mobile.jpg">
+        <source media="(max-width:940px)" srcset="assets/images/image-web-3-mobile.jpg">
         <img src="assets/images/image-web-3-desktop.jpg" alt="" id="img-main">
       </picture>
       <article id="article-main">
