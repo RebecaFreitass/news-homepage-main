@@ -16,12 +16,12 @@
     src: url(assets/fonts/static/Inter-ExtraBold.ttf );
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 4rem;
-    width: 80rem;
+    padding: 2rem 0rem;
+    width: 73rem;
     margin: auto;
 }
 nav{
@@ -41,16 +41,12 @@ nav{
 
 
 
-
-
-
-
-
 main {
-    width: 80rem;
+    width: 72rem;
     display: flex;
     margin: auto;
     margin-top: 2rem;
+    gap: 3rem;
 }
 #principal-notice{
     width: 46rem;
@@ -93,6 +89,85 @@ main {
     background-color:  hsl(240, 100%, 5%);
 }
 
+#section-news {
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.5rem;
+    width: 21rem;
+    height: 31rem;
+}
+#h1-news {
+    font-size: 2rem;
+    color: hsl(35, 77%, 62%);
+    font-family: "Inter-800";
+    margin-bottom: 1rem;
+}
+.h2-news a {
+    color: white;
+    font-family: "Inter-700";
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.h2-news a:hover {
+    color: hsl(35, 77%, 62%);
+}
+.p-news {
+    color: hsl(233deg 8% 79% / 53%);
+    font-family: "Inter-400";
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-top: 0.4rem;
+}
+#line {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(233deg 8% 79% / 23%);
+    margin: 2.5rem 0;
+}
+
+
+
+aside {
+    width: 72rem;
+    margin: 2rem auto;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7rem;
+}
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+#article-aside{
+    width:13rem;
+}
+.images-list-aside{
+    width: 5rem;
+}
+.h1-aside-list {
+    font-family: "Inter-700";
+    color: hsl(233, 8%, 79%);
+    font-size: 2rem;
+}
+.h2-aside-list a {
+    font-size: 1rem;
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+    font-family: "Inter-700";
+}
+.h2-aside-list a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.p-aside-list {
+    font-family: "Inter-400";
+    color: hsl(233deg 2.9% 66.09%);
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+}
 
 
 
@@ -138,15 +213,12 @@ main {
 
 
 
-
-
-
-
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Inter-700";
+    margin-top: 4rem;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(5, 85%, 63%); 
 }
